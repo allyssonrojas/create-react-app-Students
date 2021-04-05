@@ -1,0 +1,49 @@
+.imagenn{
+    width: 200px;
+    height: 150px;
+    display: grid;
+    justify-self: center;
+    justify-content: center;
+}
+
+.individualCardd{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    justify-self: center;
+    background-color: rgb(104, 200, 245);
+    font-size: medium;
+    border: 5px solid coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informationn{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+  font-size: large;
+}
+
+.bodyy{
+    background-color: rgb(0, 105, 167);
+}
+
+.allCardss{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+
+    justify-content: center;
+}
+
+.botonn{
+        padding: 5px 5px;
+        color: rgb(255, 255, 255);
+        background-color: coral;
+        font-size: small;
+        border-radius: 4px;
+        width: 200px;
+        height: 50px;
+        margin-bottom: 10px;
+    }

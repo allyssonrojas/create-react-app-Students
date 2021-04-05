@@ -1,0 +1,44 @@
+.complete-form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    background-color: rgb(0, 105, 167);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+   
+}
+
+.imagen{
+    width: 150px;
+    height: 150px;
+}
+
+.input{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    padding: 5px 5px;
+    height: 15px;
+    width: 200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.button{
+    padding: 5px 5px;
+    color: rgb(255, 255, 255);
+    background-color: coral;
+    font-size: medium;
+    border-radius: 4px;
+}
+
+.body{
+    background-color: rgb(0, 105, 167);
+}
